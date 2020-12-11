@@ -18,6 +18,14 @@ maand.innerHTML= n
 console.log(maand)
 }
 
+function toonDatum(){
+  var d = new Date();
+var n = d.getYear()
+var year = document.getElementById("Jaar")
+.innerHTML= n
+console.log(year)
+}
+
 
 window.addEventListener('DOMContentLoaded', toonDatum);
 
